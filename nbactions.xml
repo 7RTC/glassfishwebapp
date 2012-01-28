@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+        <action>
+            <actionName>CUSTOM-Create Domain</actionName>
+            <displayName>Create Domain</displayName>
+            <goals>
+                <goal>glassfish:create-domain</goal>
+            </goals>
+        </action>
+        <action>
+            <actionName>CUSTOM-Start Domain</actionName>
+            <displayName>Start Domain</displayName>
+            <goals>
+                <goal>glassfish:start-domain</goal>
+            </goals>
+        </action>
+        <action>
+            <actionName>CUSTOM-Deploy</actionName>
+            <displayName>Deploy</displayName>
+            <goals>
+                <goal>compiler:compile</goal>
+                <goal>war:exploded</goal>
+                <goal>glassfish:deploy</goal>
+            </goals>
+        </action>
+        <action>
+            <actionName>CUSTOM-Redeploy</actionName>
+            <displayName>Redeploy</displayName>
+            <goals>
+                <goal>compiler:compile</goal>
+                <goal>war:exploded</goal>
+                <goal>glassfish:redeploy</goal>
+            </goals>
+        </action>
+        <action>
+            <actionName>CUSTOM-Undeploy</actionName>
+            <displayName>Undeploy</displayName>
+            <goals>
+                <goal>glassfish:undeploy</goal>
+            </goals>
+        </action>
+        <action>
+            <actionName>CUSTOM-Stop Domain</actionName>
+            <displayName>Stop Domain</displayName>
+            <goals>
+                <goal>glassfish:stop-domain</goal>
+            </goals>
+        </action>
+        <action>
+            <actionName>CUSTOM-Delete Domain</actionName>
+            <displayName>Delete Domain</displayName>
+            <goals>
+                <goal>glassfish:delete-domain</goal>
+            </goals>
+        </action>
+    </actions>
