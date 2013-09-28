@@ -1,4 +1,3 @@
-
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
@@ -18,7 +17,7 @@
         <!-- Seu usuario no dominio -->
         <domain.username>anthony</domain.username>
         <!-- Arquivo de senhas do GlassFish -->
-        <glassfish.passwordFile>C:/Users/Anthony/Desktop/passwords.txt</glassfish.passwordFile>
+        <glassfish.passwordFile>C:/Users/[Seu Usuario]/Desktop/passwords.txt</glassfish.passwordFile>
         <!-- Nome do Dominio, Default para o nome do projeto -->
         <glassfish.domain.name>${project.artifactId}</glassfish.domain.name>
     </properties>
